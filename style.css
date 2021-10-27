@@ -1,0 +1,165 @@
+* {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 22px;
+    color: seashell;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+
+}
+#content {
+    width: 90%;
+    margin: 0 auto;
+}
+.width-body {
+    
+}
+
+/* Header */
+
+
+.list-header {
+    
+    display: flex;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    z-index: 1;
+    background-color: black;
+    
+    
+}
+
+.list-menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    
+    
+}
+
+.list-menu li a {
+    text-decoration: none;
+    
+}
+
+header img {
+    height: 50px;
+    margin-left: 10px;
+    opacity: 0.9;
+}
+
+/* Main Section */
+
+.main-section {
+    background: url(./img/img-mission-background.webp) no-repeat;
+    background-size: cover;
+    height: 700px;
+    padding-top: 69px; 
+    position: relative;
+}
+
+.text-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    line-height: 2;
+    background-color: black;
+}
+
+/* Second Section */
+
+
+.header-two {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+}
+
+.header-two h2 {
+    margin-bottom: 10px;
+}
+
+.image-one img {
+    width: 300px;
+    height: 200px;
+    margin: 0 10px;
+    margin-top: 10px;
+}
+
+.image-one {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+/* Third Section */
+
+.list-location {
+    background: url(./img/img-locations-background.webp) no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 30px; 
+    max-height: 300%;
+}
+
+.list-location h2 {
+    font-size: 1.5rem;
+    opacity: 0.9;
+    margin-bottom: 50px;
+    
+}
+
+
+.three-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.box {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-around;
+    
+}
+
+
+.last-line h3 {
+    color: red;
+}
+
+.align-left {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+
+
+
